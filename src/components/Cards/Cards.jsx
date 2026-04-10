@@ -1,7 +1,7 @@
 import './Cards.css';
 import { iconsImgs } from '../../utils/images'
 
-const Cards = () => {
+const Cards = () => { 
     return (
         <div className='grid-one-item grid-common grid-c1'>
             <div className="grid-c-title">
