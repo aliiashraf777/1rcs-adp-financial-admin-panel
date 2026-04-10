@@ -6,7 +6,7 @@ const Content = () => {
     <div className='content-wrapp'>
       <ContentTop />
 
-      <ContentMain />
+      <ContentMain /> 
     </div>
   )
 }
