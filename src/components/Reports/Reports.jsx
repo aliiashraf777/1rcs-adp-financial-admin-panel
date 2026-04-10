@@ -1,7 +1,7 @@
 import './Reports.css';
 import { reportData } from '../../data/data';
 import { iconsImgs } from '../../utils/images';
-
+ 
 const Reports = () => {
     return (
         <div className='grid-one-item grid-common grid-c3'>
