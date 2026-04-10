@@ -1,7 +1,7 @@
 import './Transactions.css';
 import { iconsImgs } from '../../utils/images';
 import { transactions } from '../../data/data';
-
+ 
 const Transactions = () => {
     return (
         <div className='grid-one-item grid-common grid-c2'>
