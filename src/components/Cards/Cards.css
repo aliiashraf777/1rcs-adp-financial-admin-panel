@@ -1,0 +1,93 @@
+.grid-c1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-c1__content {
+    background: linear-gradient(114.04deg,
+            rgba(66, 59, 55, 0.6) 3.49%,
+            rgba(66, 59, 55, 0) 34.7%),
+        linear-gradient(138.58deg,
+            rgba(59, 43, 30, 0.37) 43.56%,
+            #fea767 112.68%);
+    background-size: 200% 200%;
+    background-position: left top;
+    background-position: right top;
+    transition: background-position 0.5s ease;
+
+    flex: 1;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.grid-c1__content:hover {
+    background-position: right top;
+    background-position: left top;
+}
+
+.grid-c1__content .lg-value {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #c7c4c6;
+    /* transition: transform 0.3s ease-in; */
+}
+
+/* .grid-c1__content:hover .lg-value {
+    transform: scale(1.01);
+} */
+
+.grid-c1__content__pin {
+    display: flex;
+}
+
+.grid-c1__content__pin-hidden {
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+.grid-c1__content__pin span:nth-child(2) {
+    color: #8a8587;
+}
+
+.grid-c1__content__expiry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-c1__content__expiry-text {
+    margin-bottom: 8px;
+}
+
+.grid-c1__content__expiry-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-shape1,
+.logo-shape2 {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    transition: transform 0.3s ease-in;
+}
+
+.logo-shape1 {
+    background-color: var(--clr-scarlet-v1);
+    margin-right: -15px;
+    z-index: 0;
+}
+
+.logo-shape2 {
+    background-color: var(--clr-yellow);
+}
+
+.grid-c1__content__expiry-logo:hover .logo-shape1,
+.grid-c1__content__expiry-logo:hover .logo-shape2 {
+    transform: scale(1.1);
+}
+
+.grid-c1__content:hover .logo-shape1,
+.grid-c1__content:hover .logo-shape2 {
+    transform: scale(1.1);
+}

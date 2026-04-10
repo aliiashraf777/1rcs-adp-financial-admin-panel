@@ -1,0 +1,48 @@
+.grid-c4-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-c4__content {
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.grid-c4__content__budgets {
+    padding: 12px;
+}
+
+.grid-c4__content__budgets-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.grid-c4__content__budgets-box__left {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 16px;
+}
+
+.grid-c4__content__budgets-box__left .bb__icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.grid-c4__content__budgets-box__left .bb__icon img {
+    width: 20px;
+}
+
+.grid-c4__content__budgets-box__left .bb__text {
+    font-weight: 600;
+}
+
+.grid-c4__content__budgets-box__left .bb__text p:nth-child(2) {
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+    opacity: 0.6;
+}

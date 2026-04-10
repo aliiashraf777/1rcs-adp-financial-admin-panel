@@ -1,0 +1,51 @@
+.grid-c5__content__subscriptions {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.grid-c5__content__subscriptions-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 16px; */
+    transition: all 0.3s ease-in;
+}
+
+.grid-c5__content__subscriptions-box:hover {
+    transform: scale(1.01);
+}
+
+.grid-c5__content__subscriptions-box__text {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.grid-c5__content__subscriptions-box__text .icon {
+    background-color: rgba(254, 30, 0, 0.15);
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-c5__content__subscriptions-box__text .icon img {
+    width: 16px;
+}
+
+.grid-c5__content__subscriptions-box__text .text {
+    color: var(--clr-silver-v1);
+}
+
+.grid-c5__content__subscriptions-box__text .text span {
+    color: #8a8587;
+    font-size: 15px;
+}
+
+
+.grid-c5__content__subscriptions-box__price {
+    font-weight: 600;
+}
