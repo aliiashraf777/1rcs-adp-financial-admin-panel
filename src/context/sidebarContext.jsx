@@ -1,7 +1,7 @@
 import { createContext, useReducer } from "react";
 // import sidebarReducer from '../reducer/sidebarReducer';
 import PropTypes from 'prop-types';
-
+ 
 // Global state via Context & useReducer
 // e.g. Dark / light theme, authentication status
 // Reducers + Context API make Redux - like global state without external library
