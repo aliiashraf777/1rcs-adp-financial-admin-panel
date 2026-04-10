@@ -1,6 +1,6 @@
 import './Loans.css';
 import { iconsImgs } from '../../utils/images';
-
+ 
 const Loans = () => {
     return (
         <div className='main-content__grid-two__subgrid__item grid-common grid-c7'>
