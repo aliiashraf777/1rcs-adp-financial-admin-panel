@@ -3,7 +3,7 @@ import { personsImgs } from '../../utils/images';
 import { navigationLinks } from '../../data/data';
 import { useContext, useEffect, useState } from 'react';
 import { SidebarContext } from '../../context/sidebarContext';
-
+ 
 
 const Sidebar = () => {
 
