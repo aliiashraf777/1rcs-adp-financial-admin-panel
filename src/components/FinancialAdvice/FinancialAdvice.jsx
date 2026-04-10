@@ -1,6 +1,6 @@
 import './FinancialAdvice.css';
 import { iconsImgs } from '../../utils/images';
-
+ 
 const FinancialAdvice = () => {
     return (
         <div className='main-content__grid-two__subgrid__item grid-common grid-c8'>
