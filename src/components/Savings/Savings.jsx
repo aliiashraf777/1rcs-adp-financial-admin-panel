@@ -1,7 +1,7 @@
 import './Savings.css'
 import { iconsImgs, personsImgs } from '../../utils/images'
 import { savings } from '../../data/data'
-
+ 
 const Savings = () => {
     return (
         <div className='grid-two__subgrid-item grid-common grid-c6'>
